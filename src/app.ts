@@ -369,6 +369,8 @@ class DrawingApp {
             }
         });
 
+
+
         // Canvas events for drawing and shape creation
         this.stage.on('mousedown touchstart', (e: any) => {
             // Prevent default only for touch events to avoid scrolling issues
